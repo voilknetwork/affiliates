@@ -16,7 +16,7 @@ export const UserProviderComponent = (props) => {
     function fetchData (){
       console.log('fetching data..');
       //setState({isLoading: true})
-      fetch('http://localhost:4000/graphql', {
+      fetch('https://graphql.voilk.com/graphql', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ query: `
