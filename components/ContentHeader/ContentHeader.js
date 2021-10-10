@@ -5,7 +5,7 @@ export default function ContentHeader({name, title, fullname}) {
         <>
 
 <Head>
-                <title>{fullname} - mysharespay.com</title>
+                <title>{fullname} - affiliates.voilk.com</title>
             </Head>
         <header class="page-header">
         <h2>{fullname}</h2>

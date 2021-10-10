@@ -63,7 +63,7 @@ export default function DepositForm({refetch}) {
                         <p class="card-subtitle">
                             We will exhange your Cryptocurrency deposits against USDT and credit the amount in USD to your wallet.
                             Normally we credit your deposit as soon as payment is confirmed but some cases it can take upto 24 hours.
-                            In case of any problem contact us support@mysharespay.com
+                            In case of any problem contact us support@voilk.com
                         </p>
                     </header>
                     <div class="card-body">

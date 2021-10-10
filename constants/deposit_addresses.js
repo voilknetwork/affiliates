@@ -3,21 +3,21 @@ const DepositMTD = [
         id: 1,
         deposit_system: "skrill",
         deposit_min: 5,
-        deposit_address: "payment@mysharespay.com",
+        deposit_address: "support@voilk.com",
         deposit_fee: "1.00 $"
     },
     {
         id: 2,
         deposit_system: "neteller",
         deposit_min: 5,
-        deposit_address: "payment@mysharespay.com",
+        deposit_address: "support@voilk.com",
         deposit_fee: "1.00 $"
     },
     {
         id: 3,
         deposit_system: "webmoney",
         deposit_min: 5,
-        deposit_address: "payment@mysharespay.com",
+        deposit_address: "support@voilk.com",
         deposit_fee: "1.00 $"
     },
     {

@@ -50,7 +50,7 @@ export default function SearchContent() {
                                 <td><TimeAgo
                                 datetime={comm.creation_time}
                                 /></td>
-								<td><a href={`https://mysharespay.com/@${comm.invitee}`}>Visit Blog</a></td>
+								<td><a href={`https://social.voilk.com/@${comm.invitee}`}>Visit Blog</a></td>
 
                             </tr> 
                            )) }

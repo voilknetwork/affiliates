@@ -83,7 +83,7 @@ export default function SignIn() {
                                 <span>or</span>
                             </span>
 
-                            <p class="text-center">Don't have an account yet? <a href="https://register.mysharespay.com/register">Sign Up!</a></p>
+                            <p class="text-center">Don't have an account yet? <a href="https://register.voilk.com/register">Sign Up!</a></p>
 
                         </form>
                     </div>

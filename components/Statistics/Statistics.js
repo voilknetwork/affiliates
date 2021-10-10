@@ -43,7 +43,7 @@ export default function Statistics() {
 										<div class="row">
 											<div class="col">
 													<a
-														href={`https://mysharespay.com/@${userdata.name}`}
+														href={`https://social.voilk.com/@${userdata.name}`}
 														class="btn btn-light btn-xl border font-weight-semibold text-color-dark text-3 mt-4">
 														View Profile
 													</a>
