@@ -24,7 +24,7 @@ export default function PackageActivity() {
             </div>
             <div class="card-body">
                 <ul class="list list-unstyled mb-0">
-                    {data.get_package_history.map((pack, i) => (<li class="activity-item">
+                    {data.get_package_history.map((pack, i) => (<li class="activity-item" key={i}>
                         <span class="activity-time"><TimeAgo
                                 datetime={pack.created_at}
                                 /></span> <i class="fas fa-chevron-right text-color-primary"></i>

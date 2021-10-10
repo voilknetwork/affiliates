@@ -44,7 +44,7 @@ export default function PackagesHistory() {
                                 </tr>
                             </thead>
                             <tbody>
-                                {data.get_package_history_p.docs.map((pack, i) => (<tr>
+                                {data.get_package_history_p.docs.map((pack, i) => (<tr key={i}>
                                     <td>{pack.type}</td>
                                     <td>{pack.cost}$</td>
                                     <td><span class="badge badge-success"><TimeAgo
