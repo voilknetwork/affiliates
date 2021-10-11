@@ -11,8 +11,7 @@ export default function HomeLayout({ children }) {
                 <meta charSet="UTF-8" />
 
                 <title>Home- affiliates.voilk.com</title>
-                <meta name="keywords" content="HTML5 Admin Template" />
-                <meta name="description" content="Porto Admin - Responsive HTML5 Template" />
+                <meta name="description" content="Affiliates - Earn revenue by inviting customers" />
                 <meta name="author" content="okler.net" />
 
 
