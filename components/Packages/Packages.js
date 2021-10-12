@@ -18,9 +18,9 @@ export default function Packages() {
                 <ul>
                     <li><strong>{mem.increment}</strong> Invitation Increment</li>
                     <li><strong>{mem.max_commission} Max</strong>  Commission/Sale</li>
-                    <li><strong>{mem.buyer_share} Shares</strong> You get</li>
-                    <li><strong>{mem.promoter_share} Shares</strong> Promoter gets</li>
-                    <li><strong>{mem.company_share} Shares</strong> Company gets</li>
+                    <li><strong>{mem.buyer_share} VOILK</strong> You get</li>
+                    <li><strong>{mem.promoter_share} VOILK</strong> Promoter gets</li>
+                    <li><strong>{mem.company_share} VOILK</strong> Company gets</li>
                     <li><strong>{mem.max_withdrawal}$</strong> Withdrawal Limit/month</li>
                 </ul>
             </div>
