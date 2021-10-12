@@ -10,12 +10,12 @@ export default function SearchContent() {
     const [page, setPage] = useState(1)
     const { loading, error, data, refetch } = useQuery(CUSTOMERS_HISTORY_PAGINATE,
         { 
-            variables: { username, wif: password, page, limit: 5 } 
+            variables: { username, wif: password, page, limit: 20 } 
         });
 
     useEffect(() => {
         refetch({ 
-            variables: { username, wif: password, page, limit: 5 } 
+            variables: { username, wif: password, page, limit: 20 } 
         })
     }, [page])
 
