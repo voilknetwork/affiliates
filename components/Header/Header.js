@@ -124,7 +124,15 @@ export default function Header() {
 
                 <div class="dropdown-menu">
                     <ul class="list-unstyled">
-                        
+                        <li>
+                        <Link href="/board">
+                            <a role="menuitem" 
+                            tabIndex="-1"
+                            
+                            ><i class="fas fa-plane"></i> 
+                             Board</a>
+                            </Link>
+                        </li>
                         <li>
                             <a role="menuitem" 
                             tabIndex="-1"

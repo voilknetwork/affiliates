@@ -26,7 +26,7 @@ export default function TodaySales() {
                     </div>
                     <div class="widget-summary-col">
                         <div class="summary">
-                            <h4 class="title">Today's Sales</h4>
+                            <h4 class="title">Total Sales</h4>
                             <div class="info">
                                 <strong class="amount">{data.get_sales_info.LT}</strong>
                             </div>

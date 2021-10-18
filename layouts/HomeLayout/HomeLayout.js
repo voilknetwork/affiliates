@@ -14,19 +14,19 @@ export default function HomeLayout({ children }) {
                 <meta name="description" content="Affiliates - Earn revenue by inviting customers" />
                 <meta name="author" content="voilk network" />
                 <meta property="og:type" content="website" data-reactid="7" />
-    <meta property="og:site_name" content="Voilk.com" data-reactid="8" />
-    <meta property="og:title" content="Voilk - Affiliates Rewards Network" data-reactid="9" />
-    <meta property="og:description"
-        content="Affiliates Revenue Social Network." data-reactid="10" />
-    <meta property="og:image" content="https://graphql.voilk.com/image/2f5a2c18ed6f008fa48f7dcbab293293.png"
-        data-reactid="11" />
-    <meta property="og:url" content="https://voilk.com" />
-    <meta property="fb:app_id" content="588295505354973" data-reactid="12" />
-    <meta name="twitter:card" content="summary" data-reactid="13" />
-    <meta name="twitter:site" content="@voilk" data-reactid="14" />
-    <meta name="twitter:title" content="#voilk" data-reactid="15" />
-    <meta name="twitter:image" content="https://graphql.voilk.com/image/2f5a2c18ed6f008fa48f7dcbab293293.png"
-        data-reactid="16" />
+                <meta property="og:site_name" content="Voilk.com" data-reactid="8" />
+                <meta property="og:title" content="Voilk - Affiliates Rewards Network" data-reactid="9" />
+                <meta property="og:description"
+                    content="Affiliates Revenue Social Network." data-reactid="10" />
+                <meta property="og:image" content="https://graphql.voilk.com/image/2f5a2c18ed6f008fa48f7dcbab293293.png"
+                    data-reactid="11" />
+                <meta property="og:url" content="https://voilk.com" />
+                <meta property="fb:app_id" content="588295505354973" data-reactid="12" />
+                <meta name="twitter:card" content="summary" data-reactid="13" />
+                <meta name="twitter:site" content="@voilk" data-reactid="14" />
+                <meta name="twitter:title" content="#voilk" data-reactid="15" />
+                <meta name="twitter:image" content="https://graphql.voilk.com/image/2f5a2c18ed6f008fa48f7dcbab293293.png"
+                    data-reactid="16" />
 
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -61,7 +61,7 @@ export default function HomeLayout({ children }) {
 
                 <script src="master/style-switcher/style.switcher.localstorage.js"></script>
             </Head>
-            {isLoggedIn()?<section class="body">
+            {isLoggedIn() ? <section class="body">
 
 
                 <Header />
@@ -77,10 +77,10 @@ export default function HomeLayout({ children }) {
                 </div>
 
                 <SideBarRight />
-            </section>:
-            <section className="body">
-                <p>Kindly login to continue, <a href="/signin">click here</a> to login</p>
-            </section>
+            </section> :
+                <section className="body">
+                    <p>Kindly login to continue, <a href="/signin">click here</a> to login</p>
+                </section>
             }
             <script src="vendor/jquery/jquery.js"></script>
             <script src="vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>

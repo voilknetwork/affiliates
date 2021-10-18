@@ -38,7 +38,7 @@ const DepositMTD = [
         id: 6,
         deposit_system: "tetherTRON",
         deposit_min: 50,
-        deposit_address: "TLJLSgwAy8kMvK7VZAuEUzKZbWFAqq6Dvw",
+        deposit_address: "TQo7j3YHgG6FQUqPHnFKvjiAG44e7W2dZd",
         deposit_fee: "1.00 USDT"
     },
     {
@@ -109,7 +109,7 @@ const DepositMTD = [
         id: 16,
         deposit_system: "Tron",
         deposit_min: 1000,
-        deposit_address: "TNCGVZzTtKPM3Ad56JoNLmRuVuSbXsX5Fy",
+        deposit_address: "TQo7j3YHgG6FQUqPHnFKvjiAG44e7W2dZd",
         deposit_fee: "50 TRX"
     },
     {
