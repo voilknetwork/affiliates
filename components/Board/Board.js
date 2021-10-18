@@ -21,7 +21,7 @@ export default function Board() {
                         <h2 class="card-title">Inviters Leader Board</h2>
                     </header>
                     <div class="card-body">
-                        <h3>Here you see active inviters.</h3>
+                        <h3>You can see our top 100 promoters here and you can see how many users they have invited.</h3>
 
                         <table class="table table-responsive-md table-striped mb-0">
                             <thead>
