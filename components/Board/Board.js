@@ -26,12 +26,14 @@ export default function Board() {
                         <table class="table table-responsive-md table-striped mb-0">
                             <thead>
                                 <tr>
+                                    <th>SR.</th>
                                     <th>Username</th>
                                     <th>Inviter count</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {data.get_board_history.map((pack, i) => (<tr key={i}>
+                                    <th> {i +1}</th>
                                     <td>{pack._id}</td>
                                     <td>{pack.count}</td>
 
