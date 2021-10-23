@@ -10,7 +10,7 @@ export default function Packages() {
     if (error) return <p>Error :(</p>;
     return (
         <div class="pricing-table row no-gutters mt-3 mb-3">
-        <h3>You can activate any package more than once, if your limit has reached and you want to invite more of your friends, activate a package again and increase your limit.</h3>
+        <h3>Choose a package that fulfills your needs and click activate now button.</h3>
        {data.get_memberships.map((mem,i) => ( <div key={i} class="col-lg-3 col-sm-6">
             <div class="plan">
                 <h3>{mem.type}<span>${mem.cost}</span></h3>

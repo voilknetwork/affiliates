@@ -21,7 +21,7 @@ export default function Board() {
                         <h2 class="card-title">Inviters Leader Board</h2>
                     </header>
                     <div class="card-body">
-                        <h3>You can see our top 100 promoters here and you can see how many users they have invited.</h3>
+                        <h3>Top 100 Promoters List.</h3>
 
                         <table class="table table-responsive-md table-striped mb-0">
                             <thead>
@@ -34,7 +34,9 @@ export default function Board() {
                             <tbody>
                                 {data.get_board_history.map((pack, i) => (<tr key={i}>
                                     <th> {i +1}</th>
-                                    <td>{pack._id}</td>
+                                    <td>
+                                       <a href={`https://social.voilk.com/@${pack._id}`}> {pack._id} </a>
+                                    </td>
                                     <td>{pack.count}</td>
 
                                 </tr>))}
