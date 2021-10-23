@@ -35,7 +35,7 @@ export default function Board() {
                                 {data.get_board_history.map((pack, i) => (<tr key={i}>
                                     <th> {i +1}</th>
                                     <td>
-                                       <a href={`https://social.voilk.com/@${pack._id}`}> {pack._id} </a>
+                                    {pack._id} <a href={`https://social.voilk.com/@${pack._id}`}> visit </a>
                                     </td>
                                     <td>{pack.count}</td>
 
