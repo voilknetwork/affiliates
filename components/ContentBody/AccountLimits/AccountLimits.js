@@ -37,7 +37,7 @@ export default function AccountLimits() {
                 <h2 class="card-title">Membership: {data.get_membership_info.membership}</h2>
             </div>
             <div class="card-body">
-                <label>Maximum Invites ({ci})</label>
+                <label>Maximum Invites ({cii}/{ci})</label>
                 <div class="progress progress-xs mb-4 light rounded-0">
                     <div class="progress-bar progress-bar-warning rounded-0" role="progressbar" 
                     aria-valuenow={`${cii}`} 
@@ -47,7 +47,7 @@ export default function AccountLimits() {
                         <span class="sr-only">{ciP}%</span>
                     </div>
                 </div>
-                <label>Withdrawal Limit ({data.get_membership_info.max_withdrawal}$)</label>
+                <label>Withdrawal Limit ({cww}$/{data.get_membership_info.max_withdrawal}$) /month</label>
                 <div class="progress progress-xs mb-4 light rounded-0">
                 <div class="progress-bar progress-bar-success rounded-0" role="progressbar" 
                     aria-valuenow={`${cww}`} 
@@ -57,7 +57,7 @@ export default function AccountLimits() {
                         <span class="sr-only">{cwP}%</span>
                     </div>
                 </div>
-                <label>Maximum Commission/Sale ({data.get_membership_info.max_commission} Shares)</label>
+                <label>Maximum Commission/Sale ({cc}/{data.get_membership_info.max_commission} Shares)</label>
                 <div class="progress progress-xs mb-4 light rounded-0">
                 <div class="progress-bar progress-bar-info rounded-0" role="progressbar" 
                     aria-valuenow={`${cc}`} 
