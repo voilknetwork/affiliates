@@ -37,7 +37,7 @@ export default function Statistics() {
 											</div>
 											<div class="col-auto">
 												<strong class="text-color-dark text-5">{userdata.balance}</strong>
-												<h3 class="text-4-1">Shares</h3>
+												<h3 class="text-4-1">VOILK</h3>
 											</div>
 										</div>
 										<div class="row">

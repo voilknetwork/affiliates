@@ -16,19 +16,19 @@ export default function SRevenue() {
     return (
         <div class="row">
             <div class="col-auto">
-                <strong class="text-color-dark text-6">{data.get_commissions_info.H24} Shares</strong>
+                <strong class="text-color-dark text-6">{data.get_commissions_info.H24} VOILK</strong>
                 <h3 class="text-4 mt-0 mb-2">Past 24 Hours</h3>
             </div>
             <div class="col-auto">
-                <strong class="text-color-dark text-6">{data.get_commissions_info.D30} Shares</strong>
+                <strong class="text-color-dark text-6">{data.get_commissions_info.D30} VOILK</strong>
                 <h3 class="text-4 mt-0 mb-2">Past 30 Days</h3>
             </div>
             <div class="col-auto">
-                <strong class="text-color-dark text-6">{data.get_commissions_info.Y1} Shares</strong>
+                <strong class="text-color-dark text-6">{data.get_commissions_info.Y1} VOILK</strong>
                 <h3 class="text-4 mt-0 mb-2">Past 1 Year</h3>
             </div>
             <div class="col-auto">
-                <strong class="text-color-dark text-6">{data.get_commissions_info.LT} Shares</strong>
+                <strong class="text-color-dark text-6">{data.get_commissions_info.LT} VOILK</strong>
                 <h3 class="text-4 mt-0 mb-2">Total Profit</h3>
             </div>
         </div>

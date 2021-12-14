@@ -27,7 +27,7 @@ export default function CommissionActivity() {
                         <thead>
                             <tr>
                                 <th>User</th>
-                                <th>Shares</th>
+                                <th>VOILK</th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -35,7 +35,7 @@ export default function CommissionActivity() {
                            {data.get_commission_history.map((comm, i) => (
                               <tr key={i}>
                                 <td>@{comm.from}</td>
-                                <td>{comm.commission} Shares</td>
+                                <td>{comm.commission} VOILK</td>
                                 <td><TimeAgo
                                 datetime={comm.created_at}
                                 /></td>

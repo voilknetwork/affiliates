@@ -19,7 +19,7 @@ export default function SharesBalance() {
                     </div>
                     <div class="widget-summary-col">
                         <div class="summary">
-                            <h4 class="title">Shares</h4>
+                            <h4 class="title">VOILK</h4>
                             <div class="info">
                                 <strong class="amount">{userdata.balance}</strong>
                             </div>

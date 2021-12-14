@@ -33,9 +33,9 @@ export default function CommissionsHistory() {
                         <h2 class="card-title">Commissions History</h2>
                     </header>
                     <div class="card-body">
-                        <h3>You can see your commissions in shares, that you received here.
-                            You can exchange your shares against the $$ via the internal market on our social network,
-                            Where people trade the shares against the dollars.</h3>
+                        <h3>You can see your commissions in VOILK, that you received here.
+                            You can exchange your VOILK against the $$ via the internal market on our social network,
+                            Where people trade the VOILK against the dollars.</h3>
                         <table class="table table-responsive-md table-striped mb-0">
                             <thead>
                                 <tr>
@@ -48,7 +48,7 @@ export default function CommissionsHistory() {
                                 {data.get_commission_history_p.docs.map((comm, i) => (
                                     <tr key={i}>
                                         <td>@{comm.from}</td>
-                                        <td>{comm.commission} Shares</td>
+                                        <td>{comm.commission} VOILK</td>
                                         <td><TimeAgo
                                             datetime={comm.created_at}
                                         /></td>

@@ -57,7 +57,7 @@ export default function AccountLimits() {
                         <span class="sr-only">{cwP}%</span>
                     </div>
                 </div>
-                <label>Maximum Commission/Sale ({cc}/{data.get_membership_info.max_commission} Shares)</label>
+                <label>Maximum Commission/Sale ({cc}/{data.get_membership_info.max_commission} VOILK)</label>
                 <div class="progress progress-xs mb-4 light rounded-0">
                 <div class="progress-bar progress-bar-info rounded-0" role="progressbar" 
                     aria-valuenow={`${cc}`} 
