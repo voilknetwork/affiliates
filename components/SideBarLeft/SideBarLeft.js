@@ -47,10 +47,10 @@ export default function SideBarLeft() {
                             </li>
                             <li class="nav-group-label">Activity</li>
                             <li class="nav-parent">
-                                <Link href="/faq">
+                                <Link href="/bonus">
                                     <a class="nav-link">
                                         <i class="fas fa-newspaper"></i>
-                                        <span>Faq</span>
+                                        <span>Bonus 1.0</span>
                                     </a>
                                 </Link>
                             </li>
@@ -85,6 +85,14 @@ export default function SideBarLeft() {
                                     <a class="nav-link">
                                         <i class="fas fa-chart-bar"></i>
                                         <span>Statistics</span>
+                                    </a>
+                                </Link>
+                            </li>
+                            <li class="nav-parent">
+                                <Link href="/faq">
+                                    <a class="nav-link">
+                                        <i class="fas fa-newspaper"></i>
+                                        <span>Faq</span>
                                     </a>
                                 </Link>
                             </li>

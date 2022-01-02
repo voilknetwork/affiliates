@@ -15,6 +15,7 @@ import SignIn from "./SignIn/SignIn"
 import Deposits from "./Deposits/Deposits"
 import Withdrawals from "./Withdrawals/Withdrawals"
 import Board from "./Board/Board"
+import Bonus from "./Bonus/Bonus"
 
 export {
     Header, 
@@ -33,6 +34,7 @@ export {
     Settings,
     Withdrawals,
     Deposits,
+    Bonus,
     Board
 
 }

@@ -40,6 +40,11 @@ export default function Header() {
                                         <a class="nav-link">
                                             Deposit
                                         </a></Link>
+                                    </li><li class="">
+                                    <Link href="/bonus">
+                                        <a class="nav-link">
+                                            Bonus
+                                        </a></Link>
                                     </li>
                                     <li class="">
                                     <Link href="/withdraw"><a class="nav-link">
