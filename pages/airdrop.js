@@ -3,10 +3,10 @@ import React from 'react'
 import { Bonus, ContentHeader, History } from '../components'
 import { HomeLayout } from '../layouts'
 
-export default function board() {
+export default function airdrop() {
     return (
         <HomeLayout>
-            <ContentHeader fullname="Bonus" title="Activity" name="bonus"/>
+            <ContentHeader fullname="Airdrop" title="Activity" name="airdrop"/>
             <Bonus />
         </HomeLayout>
     )

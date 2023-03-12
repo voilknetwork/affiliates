@@ -1,12 +1,13 @@
 import { useMutation } from '@apollo/client';
 import {useState} from 'react'
+import { toast } from 'react-toastify';
 import { AUTH_MUTATION } from './AUTH_MUTATION';
 
 export default function SignIn() {
 
     const [username, setUsername] = useState("")
-    const [activeKey, setActiveKey] = useState("")
-    const [AuthActive, { data, loading, error }] = useMutation(AUTH_MUTATION);
+    const [postinKey, setPostingKey] = useState("")
+    const [AuthPosting, { data, loading, error }] = useMutation(AUTH_MUTATION);
     
 
     return (
@@ -23,12 +24,12 @@ export default function SignIn() {
                     <div class="card-body">
                         <form onSubmit={async (e) => {
                             e.preventDefault()
-                            const result = await AuthActive({ variables: { username, wif: activeKey } });
-                            console.log(result)
-                            if(result && result.data && result.data.auth_active&&result.data.auth_active.authenticated){
+                            const result = await AuthPosting({ variables: { username, wif: postinKey } });
+                            
+                            if(result && result.data && result.data.auth_posting&&result.data.auth_posting.authenticated){
                                 if(localStorage){
                                     localStorage.setItem("username", username)
-                                    localStorage.setItem("wif", activeKey)
+                                    localStorage.setItem("wif", postinKey)
                                     window.location.href = "/"
                                 }
                             }
@@ -36,7 +37,7 @@ export default function SignIn() {
                                 if(localStorage){
                                     localStorage.setItem("username", null)
                                     localStorage.setItem("wif", null)
-                                    window.location.href = "/"
+                                    toast.error("Posting Key not Valid.");
                                 }
                             }
                         }} method="post">
@@ -56,13 +57,13 @@ export default function SignIn() {
 
                             <div class="form-group mb-3">
                                 <div class="clearfix">
-                                    <label class="float-left">Password</label>
+                                    <label class="float-left">Posting Key</label>
                                 </div>
                                 <div class="input-group">
                                     <input name="pwd" type="password" 
-                                    value={activeKey}
-                                    placeholder="Type active private key"
-                                    onChange={(e) => setActiveKey(e.target.value)}
+                                    value={postinKey}
+                                    placeholder="Type Your Posting Key here."
+                                    onChange={(e) => setPostingKey(e.target.value)}
                                     class="form-control form-control-lg" />
                                     <span class="input-group-text">
                                         <i class="bx bx-lock text-4"></i>
@@ -75,7 +76,7 @@ export default function SignIn() {
                                     
                                 </div>
                                 <div class="col-sm-4 text-end">
-                                    <button type="submit" class="btn btn-primary mt-2">Sign In</button>
+                                    {loading?"Loading..":<button type="submit" class="btn btn-primary mt-2">Sign In</button>}
                                 </div>
                             </div>
 
@@ -83,13 +84,13 @@ export default function SignIn() {
                                 <span>or</span>
                             </span>
 
-                            <p class="text-center">Don't have an account yet? <a href="https://register.voilk.com/register">Sign Up!</a></p>
+                            <p class="text-center">Don't have an account yet? <a href="https://signup.voilk.com/register">Sign Up!</a></p>
 
                         </form>
                     </div>
                 </div>
 
-                <p class="text-center text-muted mt-3 mb-3">&copy; Copyright 2021. All Rights Reserved.</p>
+                <p class="text-center text-muted mt-3 mb-3">&copy; Copyright 2023. All Rights Reserved.</p>
             </div>
         </section>
     )

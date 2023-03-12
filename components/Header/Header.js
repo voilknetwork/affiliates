@@ -14,8 +14,8 @@ export default function Header() {
         <div class="logo-container">
         <Link href="/">
             <a class="logo">
-                <img src="img/logo-modern.png" class="logo-image" width="90" height="24" alt="Porto Admin" />
-                <img src="img/logo-default.png" class="logo-image-mobile" width="90" height="41" alt="Porto Admin" />
+                <img src="img/logo-modern.png" class="logo-image" width="90" height="24" alt="Voilk Affiliates" />
+                <img src="img/logo-default.png" class="logo-image-mobile" width="90" height="41" alt="Voilk Affiliates" />
             </a>
             </Link>
             <button class="btn header-btn-collapse-nav d-lg-none" data-bs-toggle="collapse" data-bs-target=".header-nav">
@@ -36,26 +36,16 @@ export default function Header() {
                                    
                             </li>
                             <li class="">
-                                    <Link href="/deposit">
+                                    <Link href="/airdrop">
                                         <a class="nav-link">
-                                            Deposit
-                                        </a></Link>
-                                    </li><li class="">
-                                    <Link href="/bonus">
-                                        <a class="nav-link">
-                                            Bonus
+                                            Airdrop
                                         </a></Link>
                                     </li>
+                                    
                                     <li class="">
-                                    <Link href="/withdraw"><a class="nav-link">
-                                            Withdraw
-                                        </a></Link>
-                                        
-                                    </li>
-                                    <li class="">
-                                    <Link href="/plans">
+                                    <Link href="/board">
                                         <a class="nav-link">
-                                            Packages
+                                            Leader board
                                         </a></Link>
                                     </li>
                                     <li class="">
@@ -65,22 +55,10 @@ export default function Header() {
                                         
                                     </li>
                                     <li class="">
-                                    <Link href="/customers">
+                                    <Link href="/referrals">
                                         <a class="nav-link">
-                                            Customers
+                                            Referrals
                                         </a></Link>
-                                    </li>
-                                    <li class="">
-                                    <Link href="/history"><a class="nav-link">
-                                            History
-                                        </a></Link>
-                                        
-                                    </li>
-                                    <li class="">
-                                    <Link href="/stats"><a class="nav-link">
-                                            Statistics
-                                        </a></Link>
-                                        
                                     </li>
                             {username==="voilk"?<li class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#">

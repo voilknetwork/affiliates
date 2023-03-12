@@ -26,7 +26,7 @@ export default function ContentBody() {
                                 <div class="col-xl-12">
                                     <div id="salesSelectorWrapper">
                                         <h2>
-                                            Report
+                                            Referrals Report
                                         </h2>
                                         <CustomersChart />
                                     </div>
@@ -45,14 +45,8 @@ export default function ContentBody() {
                     <br />
                     <div class="row">
                         <CustomersCount />
-                        <TodaySales />
                     </div>
                 </div>
-            </div>
-            <div className="row">
-                <PackageActivity />
-                <CommissionActivity />
-                <AccountLimits />
             </div>
 
         </>

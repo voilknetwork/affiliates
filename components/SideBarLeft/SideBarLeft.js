@@ -27,64 +27,31 @@ export default function SideBarLeft() {
                                     </a>
                                 </Link>
                             </li>
-                            <li class="nav-group-label">Finance
-                            </li>
-                            <li class="nav-parent">
-                                <Link href="/deposit">
-                                    <a class="nav-link">
-                                        <i class="fas fa-money-bill-wave"></i>
-                                        <span>Deposit</span>
-                                    </a>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/withdraw">
-                                    <a class="nav-link">
-                                    <i class="fas fa-money-bill-alt"></i>
-                                        <span>Withdraw</span>
-                                    </a>   
-                                </Link>
-                            </li>
+                            
                             <li class="nav-group-label">Activity</li>
                             <li class="nav-parent">
-                                <Link href="/bonus">
+                                <Link href="/airdrop">
                                     <a class="nav-link">
                                         <i class="fas fa-newspaper"></i>
-                                        <span>Bonus 1.0</span>
+                                        <span>AirDrop</span>
                                     </a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/plans">
+                                <Link href="/board">
                                     <a class="nav-link">
                                         <i class="fas fa-cubes"></i>
-                                        <span>Packages</span>
+                                        <span>Leader board</span>
                                     </a>   
                                 </Link>
                             </li>
                             <li class="nav-group-label">More</li>
 
                             <li class="nav-parent">
-                                <Link href="/customers">
+                                <Link href="/referrals">
                                     <a class="nav-link">
                                         <i class="fas fa-users"></i>
-                                        <span>Customers</span>
-                                    </a>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/history">
-                                    <a class="nav-link">
-                                        <i class="fas fa-scroll"></i>
-                                        <span>History</span>
-                                    </a>   
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/stats">
-                                    <a class="nav-link">
-                                        <i class="fas fa-chart-bar"></i>
-                                        <span>Statistics</span>
+                                        <span>Referrals</span>
                                     </a>
                                 </Link>
                             </li>

@@ -26,11 +26,6 @@ export default function UserBalance() {
                                                     <strong class="amount">{userdata.vsd_balance}</strong>
                                                 </div>
                                             </div>
-                                            <div class="summary-footer">
-                                                <Link href="/plans">
-                                                    <a class="text-muted text-uppercase">(activate plan)</a>
-                                                </Link>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

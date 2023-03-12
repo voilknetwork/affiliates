@@ -16,7 +16,7 @@ export default function CustomersCount() {
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error :(</p>;
     return (
-        <div class="col-xl-6">
+        <div class="col-xl-12">
             <section class="card card-featured-left card-featured-primary mb-3">
                 <div class="card-body">
                     <div class="widget-summary">
@@ -27,13 +27,13 @@ export default function CustomersCount() {
                         </div>
                         <div class="widget-summary-col">
                             <div class="summary">
-                                <h4 class="title">Total Customers</h4>
+                                <h4 class="title">Total Referrals</h4>
                                 <div class="info">
                                     <strong class="amount">{data.get_customers_info.LT}</strong>
                                 </div>
                             </div>
                             <div class="summary-footer">
-                                <Link href="/customers">
+                                <Link href="/referrals">
                                     <a class="text-muted text-uppercase">(view all)</a>
                                 </Link>
                             </div>

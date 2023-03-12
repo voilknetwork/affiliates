@@ -31,10 +31,10 @@ export default function SearchContent() {
 							<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
 						</div>
 
-						<h2 class="card-title">Customer Details</h2>
+						<h2 class="card-title">Referrals Details</h2>
 					</header>
 					<div class="card-body">
-                    <h3>Referral link: <span class="text-success">https://register.voilk.com/register?ref={username}</span></h3>
+                    <h3>Referral link: <span class="text-success">https://signup.voilk.com/register?ref={username}</span></h3>
 						<table class="table table-bordered table-striped mb-0" id="datatable-details">
 							<thead>
 								<tr>

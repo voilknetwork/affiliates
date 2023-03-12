@@ -24,11 +24,6 @@ export default function SharesBalance() {
                                 <strong class="amount">{userdata.balance}</strong>
                             </div>
                         </div>
-                        <div class="summary-footer">
-                            <Link href="/stats">
-                                <a class="text-muted text-uppercase">(statistics)</a>
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </div>

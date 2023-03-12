@@ -19,7 +19,7 @@ export default function CustomersChart() {
             <Line data={{
 
                 datasets: [{
-                    label: 'Customers',
+                    label: 'Referrals',
                     backgroundColor: 'rgb(255, 99, 132)',
                     borderColor: 'rgb(255, 99, 132)',
                     data: data.get_customers_data,
