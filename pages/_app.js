@@ -10,7 +10,7 @@ import { UserProviderComponent } from "../contexts/UserContext/UserContext";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://graphql.voilk.com/graphql',
   cache: new InMemoryCache()
 });
 function MyApp({ Component, pageProps }) {
