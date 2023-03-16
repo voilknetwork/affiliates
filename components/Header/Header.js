@@ -60,6 +60,12 @@ export default function Header() {
                                             Referrals
                                         </a></Link>
                                     </li>
+                                    <li class="">
+                                    <Link href="/users">
+                                        <a class="nav-link">
+                                            Recently joined
+                                        </a></Link>
+                                    </li>
                             {username==="voilk"?<li class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#">
                                     Admin

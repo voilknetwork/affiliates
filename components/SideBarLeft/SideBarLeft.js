@@ -56,6 +56,14 @@ export default function SideBarLeft() {
                                 </Link>
                             </li>
                             <li class="nav-parent">
+                                <Link href="/users">
+                                    <a class="nav-link">
+                                    <i class="fas fa-star"></i>
+                                        <span>Recently Joined</span>
+                                    </a>
+                                </Link>
+                            </li>
+                            <li class="nav-parent">
                                 <Link href="/faq">
                                     <a class="nav-link">
                                         <i class="fas fa-newspaper"></i>

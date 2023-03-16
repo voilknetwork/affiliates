@@ -16,8 +16,10 @@ import Deposits from "./Deposits/Deposits"
 import Withdrawals from "./Withdrawals/Withdrawals"
 import Board from "./Board/Board"
 import Bonus from "./Bonus/Bonus"
+import RecentUsers from './RecentUsers/RecentUsers'
 
 export {
+    RecentUsers,
     Header, 
     SideBarLeft, 
     ContentBody, 
