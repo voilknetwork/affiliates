@@ -39,14 +39,13 @@ export default function RecentUsers() {
 									<th>Username</th>
 									<th>Invited By</th>
 									<th>Joined</th>
-									<th>Visit</th>
 								</tr>
 							</thead>
 							<tbody>
 							{data.get_recent_users.docs.map((comm, i) => (
                               <tr key={i}>
-                                <td><a href={`https://social.voilk.com/@${comm.invitee}`}>@{comm.invitee}</a></td>
-                                <td><a href={`https://social.voilk.com/@${comm.inviter}`}>@{comm.inviter}</a></td>
+                                <td><a class="text-primary" href={`https://social.voilk.com/@${comm.invitee}`}>@{comm.invitee}</a></td>
+                                <td><a class="text-info" href={`https://social.voilk.com/@${comm.inviter}`}>@{comm.inviter}</a></td>
                                 <td><TimeAgo
                                 datetime={comm.creation_time}
                                 /></td>
